@@ -10,6 +10,7 @@ variable "amis" {
 		us-west-2 = "ami-f2d3638a" # ubuntu 14.04 LTS
     }
 }
+variable "imagename" {}
 variable "vpc_cidr" {}
 variable "vpc_name" {}
 variable "IGW_name" {}

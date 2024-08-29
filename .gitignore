@@ -2,4 +2,6 @@
 *.tfstate.backup
 *.terraform
 *.hcl
+*.txt
+*.json
 *.tfvars
