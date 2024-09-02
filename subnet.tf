@@ -29,3 +29,15 @@ resource "aws_subnet" "subnet3-public" {
     }
 	
 }
+
+resource "aws_subnet" "subnet4-public" {
+    vpc_id = "${aws_vpc.tf_vpc.id}"
+    cidr_block = "${var.private_subnet_cidr}"
+    availability_zone = "us-east-1d"
+
+    tags = {
+        Name = "${var.private_subnet_name}"
+    }
+
+}
+
