@@ -1,10 +1,10 @@
 # Routing Table Creation
 resource "aws_route_table" "terraform-public" {
-    vpc_id = "${aws_vpc.default.id}"
+    vpc_id = "${aws_vpc.tf_vpc.id}"
 
     route {
         cidr_block = "0.0.0.0/0"
-        gateway_id = "${aws_internet_gateway.default.id}"
+        gateway_id = "${aws_internet_gateway.tf_igw.id}"
     }
 
     tags = {

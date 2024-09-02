@@ -1,4 +1,4 @@
-resource "aws_instance" "web" {
+resource "aws_instance" "tf_instant_one" {
   ami = var.imagename
   #ami = "ami-0d857ff0f5f]4e03b"
   #ami = "${data.aws_ami.my_ami.id}"
