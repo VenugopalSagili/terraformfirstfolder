@@ -1,5 +1,5 @@
-# aws_access_key = "AKIAT3LCIUCV33FLEY37"
-# aws_secret_key = "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"
+# aws_access_key = "xxxx"
+# aws_secret_key = "xxxx"
 aws_region = "us-east-1"
 vpc_cidr = "172.17.0.0/16"
 public_subnet1_cidr = "172.17.1.0/24"
