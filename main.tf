@@ -5,11 +5,11 @@ provider "aws" {
     region = "${var.aws_region}"
 }
 
-terraform {
-  backend "s3" {
-    bucket = "vopal-terraform-statefile"
-    key    = "vopal.tfstate"
-    region = "us-east-1"
-    # dynamodb_table = "terraform_dynamodb_state_lock"
-  }
-}
+# terraform {
+#   backend "s3" {
+#     bucket = "vopal-terraform-statefile"
+#     key    = "vopal.tfstate"
+#     region = "us-east-1"
+#     # dynamodb_table = "terraform_dynamodb_state_lock"
+#   }
+# }
