@@ -9,7 +9,7 @@ resource "aws_instance" "tf_instant_one" {
   vpc_security_group_ids      = ["${aws_security_group.allow_all.id}"]
   associate_public_ip_address = true
   tags = {
-    Name       = "${var.environment}-server-one"
+    Name       = "Pipline-Test-Server-1"
     Env        = var.environment
     Owner      = "Venugopal"
     CostCenter = "ABCD"

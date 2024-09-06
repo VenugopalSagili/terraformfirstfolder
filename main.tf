@@ -10,6 +10,6 @@ terraform {
     bucket = "vopal-terraform-statefile"
     key    = "vopal.tfstate"
     region = "us-east-1"
-    dynamodb_table = "terraform_dynamodb_state_lock"
+    # dynamodb_table = "terraform_dynamodb_state_lock"
   }
 }
